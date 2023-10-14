@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./header_2.css">
+</head>
+<style>
+    body {
+        background: var(--background-dark, #2F1893);
+    }
+
+    .headerContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .navBaar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 85%;
+    }
+
+    .navName {
+        color: #FFF;
+        text-align: center;
+        font-family: Poppins;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: -0.293px;
+    }
+
+    .navButtonContainer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 300px;
+    }
+
+
+    .navButton {
+        color: var(--colors-white, #FFF);
+        font-family: DM Sans;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 28px;
+        text-decoration: none;
+    }
+
+    .signUpButton {
+        width: 100px;
+        height: 40px;
+        flex-shrink: 0;
+        border-radius: 100px;
+        background: var(--action-secondary, #482BE7);
+        border: none;
+    }
+
+    .signUpBtn {
+        color: var(--colors-white, #FFF);
+        text-align: center;
+        font-family: DM Sans;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 26px;
+        text-decoration: none;
+    }
+
+    .textContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .headerText {
+        color: #FFF;
+        text-align: center;
+        width: 570px;
+        font-family: DM Sans;
+        font-size: 72px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 86px;
+        /* 119.444% */
+        letter-spacing: -1px;
+    }
+
+    .peraText {
+        color: #FFF;
+        text-align: center;
+        width: 510px;
+        font-family: DM Sans;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 32px;
+        /* 145.455% */
+    }
+    
+    .divContainer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .sendEmailContainer {
+        width: 400px;
+        height: 60px;
+        display: flex;
+        align-items: center;
+    }
+
+    .inputEmail {
+        width: 260px;
+        height: 40px;
+        flex-shrink: 0;
+
+        border-radius: 100px;
+        border: 2px solid var(--colors-white, #FFF);
+        opacity: 0.2;
+        padding-left: 30px;
+    }
+
+    .sendButton {
+        border: none;
+        width: 100px;
+        height: 45px;
+        flex-shrink: 0;
+        margin-left: 6px;
+        border-radius: 30px;
+        background: var(--action-primary, #25DAC5);
+
+        color: #FFF;
+        text-align: center;
+        font-family: Poppins;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 26px;
+        /* 130% */
+        letter-spacing: -0.25px;
+    }
+
+    .agreeConditionText {
+        color: #FFF;
+        font-family: Poppins;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 22px;
+        letter-spacing: -0.2px;
+        opacity: 0.3;
+    }
+</style>
+
+<body>
+    <div class="headerContainer">
+        <div class="navBaar">
+            <h1 class="navName">startup 3</h1>
+            <div class="navButtonContainer">
+                <a href="#" class="navButton">subscribe</a>
+                <a href="#" class="navButton">features</a>
+                <button class="signUpButton">
+                    <a href="#" class="signUpBtn">Sign Up</a>
+                </button>
+            </div>
+        </div>
+        <div class="textContainer">
+            <h1 class="headerText">Let’s make design
+                fast and easy</h1>
+            <p class="peraText">The most important part of the Startup is the samples. The samples form a set of 25
+                usable pages you can use as is or you can add new blocks from UI Kit.</p>
+        </div>
+        <div class="divContainer">
+            <div class="sendEmailContainer">
+                <input class="inputEmail" type="email" placeholder="Your Email" class="email">
+                <button class="sendButton">Send</button>
+            </div>
+            <p class="agreeConditionText">By signing up, you agree to the Terms of Service</p>
+        </div>
+    </div>
+
+
+
+</body>
+
+</html>
